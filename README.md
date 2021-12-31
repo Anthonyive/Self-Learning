@@ -8,7 +8,7 @@ The unittesting code for CtCI is taken from [CtCI-6th-Edition-Python](https://gi
 
 - Cracking the Coding Interview
   - 1. Array and Strings -> Done
-  - 2.
+  - 2. Linked Lists -> Done
   - 3.
   - ...
   - 17.
