@@ -1,3 +1,3 @@
 # CS 61B - Data Structures
 
-[CS 61B](https://inst.eecs.berkeley.edu/~cs61b/sp22/) from UC Berkeley.
+[CS 61B - Spring 2021](https://sp21.datastructur.es) from UC Berkeley.
