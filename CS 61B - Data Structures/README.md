@@ -6,7 +6,7 @@
 
 0. [2048 Clone](./skeleton-sp21/proj0)
 
-   ![2048 Clone Demo](./imgs/gifs/2048 clone demo.gif)
+   ![2048 Clone Demo](https://media.giphy.com/media/QmqjrNWBvFXiWwvkBv/giphy.gif)
 
 ## Resources
 
