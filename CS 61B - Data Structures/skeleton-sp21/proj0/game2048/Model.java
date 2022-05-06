@@ -143,10 +143,10 @@ public class Model extends Observable {
 
 
         board.setViewingPerspective(side);
-//        System.out.println(side);
-//        System.out.println(board);
 
-
+        /*
+        A 2d array to keep track of merge status
+         */
         boolean[][] merged = new boolean[4][4];
 
         for (int row = 3; row >= 0; row--) {
@@ -166,24 +166,21 @@ public class Model extends Observable {
                         }
                     }
 
-                    /*
-                    Create next tile nt object
-                     */
+                    // Create next tile nt object
                     Tile nt = null;
                     if (ntRow >= 0) {
                         nt = board.tile(col, ntRow);
                     }
-//                    System.out.println(t + "->" + nt);
 
 
                     if (nt == null) {
                         /*
                         Case 1: No next adjacent tile. Move to edge directly.
                          */
-                        if (row == 3) {
+                        if (row == 3) { // should NOT change if tile is on edge
                             changed = false;
                             continue;
-                        } else {
+                        } else { // move tile to edge if there's anywhere empty
                             board.move(col, 3, t);
                             changed = true;
                         }
@@ -200,6 +197,8 @@ public class Model extends Observable {
                             /*
                             Case 3: Two tiles can't merge (different val OR nt was merged before)
                              */
+
+                            // Find row index right below the next adjacent tile
                             int ntAdjRow = ntRow;
                             for (int i = row; i < ntRow; i++) {
                                 Tile tt = board.tile(col, i + 1);

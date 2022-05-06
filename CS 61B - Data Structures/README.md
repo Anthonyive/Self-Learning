@@ -2,6 +2,12 @@
 
 [CS 61B - Spring 2021](https://sp21.datastructur.es) from UC Berkeley.
 
+## Projects
+
+0. [2048 Clone](./skeleton-sp21/proj0)
+
+   ![2048 Clone Demo](./imgs/gifs/2048 clone demo.gif)
+
 ## Resources
 
 - [Course Homepage]()(https://sp21.datastructur.es)

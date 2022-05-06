@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cd61c2c-ac18-4829-a272-7654c0453617" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game2048/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/game2048/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game2048/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/game2048/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj0/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj0/game2048/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj0/game2048/Model.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,17 +24,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/anthony/Documents/Self-Learning/CS 61B - Data Structures/skeleton-sp21/proj0",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/anthony/Documents/Self-Learning/CS 61B - Data Structures/skeleton-sp21/proj0&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.maddyhome.idea.vim.ui.VimEmulationConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="game2048.Main" />
@@ -65,21 +64,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmptySpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proj0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="game2048.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="game2048" />
-      <option name="MAIN_CLASS_NAME" value="game2048.TestEmptySpace" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestMaxTileExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proj0" />
       <extension name="coverage">
@@ -90,6 +74,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="game2048" />
       <option name="MAIN_CLASS_NAME" value="game2048.TestMaxTileExists" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="game2048.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="game2048" />
+      <option name="MAIN_CLASS_NAME" value="game2048.TestModel" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,9 +113,9 @@
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestUpOnly" />
-        <item itemvalue="JUnit.TestAtLeastOneMoveExists" />
         <item itemvalue="JUnit.TestMaxTileExists" />
-        <item itemvalue="JUnit.TestEmptySpace" />
+        <item itemvalue="JUnit.TestAtLeastOneMoveExists" />
+        <item itemvalue="JUnit.TestModel" />
       </list>
     </recent_temporary>
   </component>
