@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7cd61c2c-ac18-4829-a272-7654c0453617" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game2048/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/game2048/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proj0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj0/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj0/game2048/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj0/game2048/Model.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
