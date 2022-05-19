@@ -16,22 +16,22 @@
 Appended with progress ->
 
 - [x] Week 1
-  - 1. Intro, Hello World Java
-  - 2. Defining and Using Classes
+  - 1\. Intro, Hello World Java
+  - 2\. Defining and Using Classes
 - [x] Week 2
-  - 3. Testing (May 17) 
-  - 4. References, Recursion, and Lists (May 19) 
-  - 5. SLLists, Nested Classes, Sentinel Nodes (May 19)
+  - 3\. Testing (May 17) 
+  - 4\. References, Recursion, and Lists (May 19) 
+  - 5\. SLLists, Nested Classes, Sentinel Nodes (May 19)
 
 ## Labs
 
 Appended with progress ->
 
 - [x] Week 1
-  - Setting Up Your Computer
-  - IntelliJ Setup
+  - 1\. Setting Up Your Computer
+  - 1\. IntelliJ Setup
 - [x] Week 2
-  - JUnit Tests and Debugging (May 19)
+  - 2\. JUnit Tests and Debugging (May 19)
 
 ## Homeworks
 
