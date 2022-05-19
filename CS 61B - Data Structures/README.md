@@ -16,12 +16,12 @@
 Appended with progress ->
 
 - [x] Week 1
-  1. Intro, Hello World Java
-  2. Defining and Using Classes
+  - 1. Intro, Hello World Java
+  - 2. Defining and Using Classes
 - [x] Week 2
-  3. Testing (May 17) 
-  4. References, Recursion, and Lists (May 19) 
-  5. SLLists, Nested Classes, Sentinel Nodes (May 19)
+  - 3. Testing (May 17) 
+  - 4. References, Recursion, and Lists (May 19) 
+  - 5. SLLists, Nested Classes, Sentinel Nodes (May 19)
 
 ## Labs
 
