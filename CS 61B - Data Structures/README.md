@@ -18,8 +18,10 @@ Appended with progress ->
 - [x] 1. Intro, Hello World Java
 - [x] 2. Defining and Using Classes
 - [x] 3. Testing (May 17) 
-- [x] 4. References, Recursion, and Lists (May 19) 
+- [x] 4. References, Recursion, and Lists
 - [x] 5. SLLists, Nested Classes, Sentinel Nodes (May 19)
+- [x] 6. DLLists, Arrays
+- [x] 7. ALists, Resizing, vs. SLists (May 20)
 
 ## Labs
 
@@ -27,6 +29,7 @@ Appended with progress ->
 
 - [x] Lab 1. Setting Up Your Computer & IntelliJ Setup
 - [x] Lab 2. JUnit Tests and Debugging (May 19)
+- [x] Lab 3. Timing Tests and Randomized Comparison Tests (May 20)
 
 ## Homeworks
 
