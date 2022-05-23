@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cd61c2c-ac18-4829-a272-7654c0453617" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/Arithmetic/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/Arithmetic/Arithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/IntList/IntListExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/IntList/IntListExercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/IntList/SquarePrimesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/IntList/SquarePrimesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proj0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj0/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -22,6 +22,7 @@ Appended with progress ->
 - [x] 5. SLLists, Nested Classes, Sentinel Nodes (May 19)
 - [x] 6. DLLists, Arrays
 - [x] 7. ALists, Resizing, vs. SLists (May 20)
+- [x] 8. Inheritance, Implements (May 22)
 
 ## Labs
 
