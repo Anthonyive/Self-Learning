@@ -140,24 +140,32 @@ public class ArrayDeque<T> {
      */
     public void printDeque() {
         if (nextFirst < nextLast) {
+            StringBuilder sb = new StringBuilder();
             for (int i = nextFirst + 1; i < nextLast - 1; i++) {
-                System.out.print(items[i] + " ");
+                sb.append(items[i]);
+                sb.append(" ");
             }
-            System.out.println(items[nextLast - 1]);
+            sb.append(items[nextLast - 1]);
+            System.out.println(sb.toString());
         } else {
+            StringBuilder sb = new StringBuilder();
             for (int i = nextFirst + 1; i < items.length; i++) {
-                System.out.print(items[i] + " ");
+                sb.append(items[i]);
+                sb.append(" ");
             }
 
             if (nextLast == 0) {
+                System.out.println(sb.toString());
                 return;
             }
 
             for (int i = 0; i < nextLast - 1; i++) {
-                System.out.print(items[i] + " ");
+                sb.append(items[i]);
+                sb.append(" ");
             }
 
-            System.out.println(items[nextLast - 1]);
+            sb.append(items[nextLast - 1]);
+            System.out.println(sb.toString());
         }
     }
 

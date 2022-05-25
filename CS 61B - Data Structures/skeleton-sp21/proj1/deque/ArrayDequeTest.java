@@ -82,11 +82,11 @@ public class ArrayDequeTest {
 
         int N = 30;
         for (int i = 0; i < N; i++) {
-            ad1.addLast(i);
+            ad1.addFirst(i);
         }
 
         for (int i = 0; i < N; i++) {
-            assertEquals(i, (int) ad1.get(i));
+            assertEquals(30-i-1, (int) ad1.get(i));
         }
 
         assertEquals(null, ad1.get(N+1));

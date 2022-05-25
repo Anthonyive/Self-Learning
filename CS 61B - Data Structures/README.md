@@ -23,6 +23,9 @@ Appended with progress ->
 - [x] 6. DLLists, Arrays
 - [x] 7. ALists, Resizing, vs. SLists (May 20)
 - [x] 8. Inheritance, Implements (May 22)
+- [x] 9. Extends, Casting, Higher Order Functions
+- [x] 10. Subtype Polymorphism vs. HoFs
+- [x] 11. Exceptions, Iterators, Object Methods (May 25)
 
 ## Labs
 
