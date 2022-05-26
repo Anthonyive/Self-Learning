@@ -86,10 +86,51 @@ public class ArrayDequeTest {
         }
 
         for (int i = 0; i < N; i++) {
-            assertEquals(30-i-1, (int) ad1.get(i));
+            assertEquals(30 - i - 1, (int) ad1.get(i));
         }
 
-        assertEquals(null, ad1.get(N+1));
+        assertEquals(null, ad1.get(N + 1));
         assertEquals(null, ad1.get(-1));
+    }
+
+    @Test
+    public void iteratorTest() {
+        ArrayDeque<Integer> ad1 = new ArrayDeque<>();
+
+        int N = 30;
+        for (int i = 0; i < N; i++) {
+            ad1.addFirst(i);
+        }
+
+        int i = 0;
+        for (int item : ad1) {
+            assertEquals(i, item);
+            i++;
+        }
+    }
+
+    @Test
+    public void equalsTest() {
+        ArrayDeque<Integer> ad1 = new ArrayDeque<>();
+        ad1.addLast(1);
+        ad1.addLast(2);
+        ad1.addLast(3);
+        ad1.addLast(4);
+        ad1.addLast(5);
+
+        ArrayDeque<Integer> ad2 = new ArrayDeque<>();
+        ad2.addLast(1);
+        ad2.addLast(2);
+        ad2.addLast(2);
+
+        ArrayDeque<Integer> ad3 = new ArrayDeque<>();
+
+        assertEquals(true, ad1.equals(ad1)); // true
+        assertEquals(false, ad1.equals(null)); // false
+        assertEquals(false, ad1.equals(ad2)); // false
+        assertEquals(false, ad1.equals(ad3)); // false
+        assertEquals(false, ad2.equals(ad3)); // false
+        assertEquals(false, ad1.equals("Hello")); // false
+
     }
 }

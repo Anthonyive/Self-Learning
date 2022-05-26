@@ -49,6 +49,14 @@ Appended with progress ->
 
    ![2048 Clone Demo](https://media.giphy.com/media/QmqjrNWBvFXiWwvkBv/giphy.gif)
 
+- [x] Project 1: Data Structures (May 25)
+  - Implementation of `Deque` Interface using 1. Linked List, `LinkedListDeque`, and using 2. Array, `ArrayDeque`.
+    - The core of `LinkedListDeque` is by using a doubly-linked list with a circular sentinel topology
+    - The core of `ArrayDeque` is by using ["Circular ArrayDeque"](https://docs.google.com/presentation/d/1XBJOht0xWz1tEvLuvOL4lOIaY0NSfArXAvqgkrx0zpc/edit#slide=id.g1094ff4355_0_101)
+    - Both extend `Iterable<T>` so that they are iterable
+    - Comprehensive autograder tests using Junit
+  - Implement the [Karplus-Strong algorithm](https://en.wikipedia.org/wiki/Karplus–Strong_string_synthesis) to synthesize a guitar string sound using the `Deque` interface we previously built
+
 ## Resources
 
 - [Course Homepage]()(https://sp21.datastructur.es)
