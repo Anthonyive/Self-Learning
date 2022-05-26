@@ -141,7 +141,7 @@ public class LinkedListDequeTest {
             assertEquals(i, (int) lld1.get(i));
         }
 
-        assertEquals(null, lld1.get(N+1));
+        assertEquals(null, lld1.get(N + 1));
         assertEquals(null, lld1.get(-10));
 
     }
@@ -161,8 +161,46 @@ public class LinkedListDequeTest {
             assertEquals(i, (int) lld1.getRecursive(i));
         }
 
-        assertEquals(null, lld1.get(N+1));
+        assertEquals(null, lld1.get(N + 1));
         assertEquals(null, lld1.get(-10));
+
+    }
+
+    @Test
+    public void iteratorTest() {
+        LinkedListDeque<Integer> lld1 = new LinkedListDeque<>();
+        lld1.addFirst(1);
+        lld1.addFirst(2);
+        lld1.addFirst(5);
+
+        for (int item : lld1) {
+            System.out.println(item);
+        }
+    }
+
+    @Test
+    public void equalsTest() {
+        LinkedListDeque<Integer> lld1 = new LinkedListDeque<>();
+        lld1.addLast(1);
+        lld1.addLast(2);
+        lld1.addLast(3);
+        lld1.addLast(4);
+        lld1.addLast(5);
+
+        LinkedListDeque<Integer> lld2 = new LinkedListDeque<>();
+        lld2.addLast(1);
+        lld2.addLast(2);
+        lld2.addLast(2);
+
+        LinkedListDeque<Integer> lld3 = new LinkedListDeque<>();
+
+        assertEquals(true, lld1.equals(lld1)); // true
+        assertEquals(false, lld1.equals(null)); // false
+        assertEquals(false, lld1.equals(lld2)); // false
+        assertEquals(false, lld1.equals(lld3)); // false
+        assertEquals(false, lld1.equals(lld3)); // false
+//        assertEquals(false, lld1.equals(lld3)); // false
+        assertEquals(false, lld1.equals("Hello")); // false
 
     }
 }

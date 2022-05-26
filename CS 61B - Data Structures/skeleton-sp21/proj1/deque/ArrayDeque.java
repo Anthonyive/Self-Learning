@@ -1,6 +1,8 @@
 package deque;
 
-public class ArrayDeque<T> {
+import java.util.Iterator;
+
+public class ArrayDeque<T> implements Deque<T> {
     private int size;
     private int nextFirst;
     private T[] items;
@@ -98,6 +100,7 @@ public class ArrayDeque<T> {
      *
      * @param item value of certain generic type
      */
+    @Override
     public void addFirst(T item) {
         items[nextFirst] = item;
         size += 1;
@@ -109,6 +112,7 @@ public class ArrayDeque<T> {
      *
      * @param item value of certain generic type
      */
+    @Override
     public void addLast(T item) {
         items[nextLast] = item;
         size += 1;
@@ -120,9 +124,10 @@ public class ArrayDeque<T> {
      *
      * @return true if empty, false otherwise
      */
-    public boolean isEmpty() {
-        return size == 0;
-    }
+//    @Override
+//    public boolean isEmpty() {
+//        return size == 0;
+//    }
 
 
     /**
@@ -130,6 +135,7 @@ public class ArrayDeque<T> {
      *
      * @return number of items
      */
+    @Override
     public int size() {
         return size;
     }
@@ -138,6 +144,7 @@ public class ArrayDeque<T> {
      * Prints the items in the deque from first to last, separated by a space.
      * Once all the items have been printed, print out a new line.
      */
+    @Override
     public void printDeque() {
         if (nextFirst < nextLast) {
             StringBuilder sb = new StringBuilder();
@@ -174,6 +181,7 @@ public class ArrayDeque<T> {
      *
      * @return a value in a generic type
      */
+    @Override
     public T removeFirst() {
         nextFirst = Math.floorMod(nextFirst + 1, items.length);
         T num = items[nextFirst];
@@ -188,6 +196,7 @@ public class ArrayDeque<T> {
      *
      * @return
      */
+    @Override
     public T removeLast() {
         nextLast = Math.floorMod(nextLast - 1, items.length);
         T num = items[nextLast];
@@ -203,8 +212,62 @@ public class ArrayDeque<T> {
      * @param index
      * @return
      */
+    @Override
     public T get(int index) {
         int i = Math.floorMod(index + nextFirst + 1, items.length);
         return items[i];
     }
+
+    /**
+     * Iterator method for using enhanced for loop
+     *
+     * @return Iterator object
+     */
+    public Iterator<T> iterator() {
+        return new Iterator<T>() {
+            private int pos = Math.floorMod(nextFirst + 1, items.length);
+
+            @Override
+            public boolean hasNext() {
+                return pos < nextLast;
+            }
+
+            @Override
+            public T next() {
+                T returnItem = items[pos];
+                pos = Math.floorMod(pos + 1, items.length);
+                return returnItem;
+            }
+        };
+    }
+
+    /**
+     * Overridden equals method for comparing objects.
+     *
+     * @param o other object
+     * @return return true if two ArrayDeque's are equal
+     */
+    @Override
+    public boolean equals(Object o) {
+        if (!(o instanceof ArrayDeque)) {
+            return false;
+        }
+
+        ArrayDeque<T> other = (ArrayDeque<T>) o;
+        if (this.size() != other.size()) {
+            return false;
+        }
+
+        Iterator<T> thisIter = this.iterator();
+        Iterator<T> otherIter = other.iterator();
+
+        while (thisIter.hasNext() & otherIter.hasNext()) {
+            if (thisIter.next() != otherIter.next()) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
 }
