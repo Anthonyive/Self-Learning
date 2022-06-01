@@ -26,8 +26,6 @@ Appended with progress ->
 - [x] 9. Extends, Casting, Higher Order Functions
 - [x] 10. Subtype Polymorphism vs. HoFs
 - [x] 11. Exceptions, Iterators, Object Methods (May 25)
-- [x] 12. Command Line Programming, Git, Project 2 Preview
-- [x] 13. Asymptotics I (May 31)
 
 ## Labs
 
@@ -52,8 +50,13 @@ Appended with progress ->
    ![2048 Clone Demo](https://media.giphy.com/media/QmqjrNWBvFXiWwvkBv/giphy.gif)
 
 - [x] Project 1: Data Structures (May 25)
+<<<<<<< HEAD
   - Implementation of `Deque` Interface using 1. Linked List, `LinkedListDeque`, and using 2. Array, `ArrayDeque`.
     - The core of `LinkedListDeque` is by using a doubly-linked list with a circular sentinel topology
+=======
+  - Implementation of `Deque` Interface using 1. Linked List, `LinkedListDeque` and using 2. Array, `ArrayDeque`.
+    - The core of `LinkedListDeque` is by using doubly linked list with circular sentinel topology
+>>>>>>> refs/remotes/origin/main
     - The core of `ArrayDeque` is by using ["Circular ArrayDeque"](https://docs.google.com/presentation/d/1XBJOht0xWz1tEvLuvOL4lOIaY0NSfArXAvqgkrx0zpc/edit#slide=id.g1094ff4355_0_101)
     - Both extend `Iterable<T>` so that they are iterable
     - Comprehensive autograder tests using Junit
