@@ -28,6 +28,9 @@ Appended with progress ->
 - [x] 11. Exceptions, Iterators, Object Methods (May 25)
 - [x] 12. Command Line Programming, Git, Project 2 Preview
 - [x] 13. Asymptotics I (May 31)
+- [x] 14. Disjoint Sets
+- [x] 15. Asymptotics II
+- [x] 16. ADTs, Sets, Maps, BSTs (Jun 11)
 
 ## Labs
 
@@ -36,6 +39,8 @@ Appended with progress ->
 - [x] Lab 1. Setting Up Your Computer & IntelliJ Setup
 - [x] Lab 2. JUnit Tests and Debugging (May 19)
 - [x] Lab 3. Timing Tests and Randomized Comparison Tests (May 20)
+- [ ] Lab 4&5. Peer Code Review and Git (Ignored)
+- [x] Lab 6. Getting Started on Project 2 (Jun 11)
 
 ## Homeworks
 
