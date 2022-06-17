@@ -8,7 +8,9 @@ import java.util.Set;
  */
 public interface Map61B<K, V> extends Iterable<K> {
 
-    /** Removes all of the mappings from this map. */
+    /**
+     * Removes all of the mappings from this map.
+     */
     void clear();
 
     /* Returns true if this map contains a mapping for the specified key. */
@@ -23,7 +25,7 @@ public interface Map61B<K, V> extends Iterable<K> {
     int size();
 
     /* Associates the specified value with the specified key in this map. */
-    void put(K key, V value);
+    BSTMap put(K key, V value);
 
     /* Returns a Set view of the keys contained in this map. Not required for Lab 7.
      * If you don't implement this, throw an UnsupportedOperationException. */

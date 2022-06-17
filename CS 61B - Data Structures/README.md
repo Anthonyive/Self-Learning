@@ -31,6 +31,8 @@ Appended with progress ->
 - [x] 14. Disjoint Sets
 - [x] 15. Asymptotics II
 - [x] 16. ADTs, Sets, Maps, BSTs (Jun 11)
+- [x] 17. B-Trees (2-3, 2-3-4 Trees)
+- [x] 18. Red Black Trees (Jun 16)
 
 ## Labs
 
@@ -41,6 +43,7 @@ Appended with progress ->
 - [x] Lab 3. Timing Tests and Randomized Comparison Tests (May 20)
 - [ ] Lab 4&5. Peer Code Review and Git (Ignored)
 - [x] Lab 6. Getting Started on Project 2 (Jun 11)
+- [x] Lab 7. BSTMap (Jun 16)
 
 ## Homeworks
 
